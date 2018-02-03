@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Homepage } from './pages/Homepage';
 import { Jumbotron } from './components/Jumbotron';
 import { Search } from './components/Search';
-import { Results } from './components/Results';
+// import { Results } from './components/Results';
 import { Saved } from './components/Saved';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ToggleDisplay from 'react-toggle-display';
@@ -12,9 +12,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Jumbotron />,
-        <Search />,
-        <Results />,
+        <Jumbotron />
+        <Search />
         <Saved />
       </div>
     );
